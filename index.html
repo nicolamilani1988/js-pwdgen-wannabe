@@ -2,7 +2,26 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Scheda anagrafica</title>
+    <style media="screen">
+
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        padding: 50px;
+        background-color: rgb(200, 200, 200);
+      }
+
+      h1{
+        padding: 10px;
+        color: red;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -23,10 +42,10 @@
 
     </h1>
 
-
     <h1 id="main-title">
 
     </h1>
+
 
     <script type="text/javascript">
 
@@ -44,7 +63,7 @@
 
       document.getElementById("main-title").innerHTML = name+surname+color+ageUser;
 
-      console.log(name, surname, color, etaUtente);
+      console.log(name, surname, color, ageUser);
 
     </script>
 
