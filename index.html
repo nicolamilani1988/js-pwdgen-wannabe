@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+
+    <h1 id="user-name">
+
+    </h1>
+
+    <h1 id="user-surname">
+
+    </h1>
+
+    <h1 id="user-color">
+
+    </h1>
+
+    <h1 id="user-age">
+
+    </h1>
+
+
+    <h1 id="main-title">
+
+    </h1>
+
+    <script type="text/javascript">
+
+      var name = prompt("Qual'è il tuo nome?");
+      document.getElementById("user-name").innerHTML = "Nome: "+name;
+
+      var surname = prompt("Qual'è il tuo cognome?");
+      document.getElementById("user-surname").innerHTML = "Cognome: "+surname;
+
+      var color = prompt("Qual'è il tuo colore preferito?");
+      document.getElementById("user-color").innerHTML = "Colore: "+color;
+
+      var ageUser = prompt("Qual'è la tua età?");
+      document.getElementById("user-age").innerHTML = "Età: "+ageUser;
+
+      document.getElementById("main-title").innerHTML = name+surname+color+ageUser;
+
+      console.log(name, surname, color, etaUtente);
+
+    </script>
+
+  </body>
+
+</html>
